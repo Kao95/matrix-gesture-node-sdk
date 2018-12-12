@@ -81,7 +81,7 @@ For those running mac/windows, you would have to create a VirtualBox running lin
  
     1-2.  Force remove a running gestrue container:
   
-     ```docker rm -f gestrue```
+     ```docker rm -f gesture```
  
  2. webcam in VirtualBox Guest OS on Windows Host. 
     https://reurl.cc/rQGAN
