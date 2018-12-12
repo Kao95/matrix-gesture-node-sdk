@@ -42,7 +42,7 @@ sudo docker run -itd -p 8080:8080 -p 3000:3000 --privileged \
 
 * Execute a command inside the docker, to run the node sample `handTracker.js`
 
-```sudo docker exec -it gesture /bin/sh -c 'cd ~/matrix-gesture-node-sdk/; examples/handTracker.js'```
+```sudo docker exec -it gesture /bin/sh -c 'cd ~/matrix-gesture-node-sdk/;node examples/handTracker.js'```
 
  This pops up a window with the feed from your default camera and runs the tracking algorithm looking for and boxing whenever it detects a flat palm. It will also look for a thumbs up or a closed fist if the palm briefly disappears. Try out some of the examples or write your own using the documentation!
 
